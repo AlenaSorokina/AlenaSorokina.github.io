@@ -1,30 +1,86 @@
+
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1> <img src="IMG-5853.JPG" height=200 align = left> 	Hi there, I'm Hank Quinlan! </h1>
-				<p>	I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">	email</a></li>
-        		<li><a href="https://github.com/hankquinlan">	github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+<head>
+	<link href="style/my.css" rel="stylesheet" type="text/css" />
+	<title>Alena Sorokina</title>
+	<script>
+	function copy(dest, source) {
+  		if(dest.source == source) {
+  		  dest.innerHTML = "";
+  		  dest.source = null;
+  		}
+  		else {
+  		  dest.innerHTML = source.innerHTML;
+  		  dest.source = source;
+  		}
+  		dest.blur();
+	}
+	</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script> 
+    $(function(){
+      $("#includepubs").load("publication.html"); 
+    });
+    </script>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+
+<!-- header info -->
+<div id="header">
+<div id="profile">
+	<img src="figures/Alena.jpg" height=250>
+</div>
+<div id="contact">	
+	<table border="0">
+	<tr>
+	<td><font size=5><b>Alena Sorokina</b> &nbsp;</font></td>
+	</tr>
+	</table>
+	<br>
+	Department of Computer Science <br>
+	Center for Data Science <br>
+    <p><font size = "4" face="courier">alena.sorokina@nu.edu.kz</font></p>
+    <p>
+    [<a href="docs/CV.pdf">CV</a>]
+    [<a href="https://github.com/AlenaSorokina">Github</a>]
+    [<a href="https://scholar.google.com/citations?user=VMWlUo0AAAAJ&hl=en"><font size="3">Google Scholar</font></a>]
+    </p>
+	<br>
+
+</div>
+</div>
+
+<!-- main content -->
+<div id="content">
+<div class="section">
+    <p>
+    About me:
+    </p>
+    <p>
+    Motivation, goals, interests:
+</div>
+<hr color="#">
+<div class="section">
+<div class="section_title"><p id="pubs">Publications  </p></div>
+<div id="includepubs"></div>
+    <p>
+        <b>2019</b>
+    </p>
+    <a href = "https://arxiv.org/pdf/1909.13494.pdf">A Critique of the Smooth Inverse Frequency Sentence Embeddings</a>
+    <br>
+    <i>Aidana Karipbayeva, Alena Sorokina, Zhenisbek Assylbekov</i>
+    <p>
+            <b>2018</b>
+        </p>
+        <a href = "https://arxiv.org/pdf/1909.09855.pdf">Low-Rank Approximation of Matrices for PMI-based Word Embeddings</a>
+        <br>
+        <i>Alena Sorokina, Aidana Karipbayeva, Zhenisbek Assylbekov</i>
+</div>
+<!-- content end -->
+</div>
+</body>
