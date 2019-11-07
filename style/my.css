@@ -9,7 +9,7 @@ div#wrapper {
 }
 
 body {
-	background: #ffffff;
+	background: #FFF8FE;
 }
 
 p {
@@ -33,7 +33,7 @@ div#header {
 	height: 260px;
 	font-family: Helvetica, Verdana, Geneva, Arial, sans-serif;
 	font-size: 12pt;
-	background-color: #ffffff;
+	background-color: #FFF8FE;
 	padding: 2em 0 0 0;
 }
 	
@@ -84,7 +84,7 @@ div#navbar li a:hover {
 
 div#content {
 	float: none;
-	background-color: #ffffff; 
+	background-color: #FFF8FE; 
 	color: #000000;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 12pt;
